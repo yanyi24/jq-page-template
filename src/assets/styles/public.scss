@@ -1,0 +1,23 @@
+@import '../fonts/iconfont.css';
+@import "variables";
+@import "_reset.css";
+@import "utilities";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #fff;
+  border-bottom: 1px solid #aeaeae;
+  padding: 1em 0;
+  .container{
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer{
+  border-top: 1px solid #aeaeae;
+  padding: 2em 0;
+}

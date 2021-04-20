@@ -1,0 +1,11 @@
+.demo{
+  background-color: #fff;
+  display: block;
+  color: black;
+  .image-box {
+    width: 100%;
+    height: 600px;
+    background-image: url("../../assets/images/a.jpg");
+    background-size: cover;
+  }
+}
