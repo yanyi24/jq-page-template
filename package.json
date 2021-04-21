@@ -1,5 +1,5 @@
 {
-  "name": "{{projectName}}",
+  "name": "jq-page-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,6 +16,7 @@
     "@types/copy-webpack-plugin": "^6.4.1",
     "@types/fs-extra": "^9.0.11",
     "@types/jquery": "^3.5.5",
+    "@types/lodash": "^4.14.168",
     "@types/mini-css-extract-plugin": "^1.4.1",
     "@types/node": "^14.14.37",
     "@types/optimize-css-assets-webpack-plugin": "^5.0.3",
@@ -27,6 +28,7 @@
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.2",
+    "cheerio": "*",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "copy-webpack-plugin": "^8.1.1",
     "core-js": "^3.10.1",
@@ -44,6 +46,7 @@
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
     "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^1.4.1",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
     "postcss-loader": "^5.2.0",
@@ -58,7 +61,8 @@
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3",
-    "workbox-webpack-plugin": "^6.1.5"
+    "workbox-webpack-plugin": "^6.1.5",
+    "xlsx": "^0.16.9"
   },
   "browserslist": {
     "development": [

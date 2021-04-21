@@ -8,4 +8,13 @@
     background-image: url("../../assets/images/a.jpg");
     background-size: cover;
   }
+  .btn{
+    display: inline-block;
+    height: 2.6em;
+    line-height: 2.6em;
+    padding: 0 1em;
+    border: 1px solid #aeaeae;
+    color: #333;
+    margin: 1em 0;
+  }
 }
