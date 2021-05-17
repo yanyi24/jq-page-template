@@ -42,7 +42,7 @@ export default {
             use: [...pubCssLoader,'sass-loader']
           },
           {
-            test: /\.js|ts$/,
+            test: /\.js$/,
             exclude: /node_modules/,
             loader: 'babel-loader',
             options: {
