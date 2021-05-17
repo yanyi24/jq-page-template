@@ -31,6 +31,12 @@ export default {
         }
       },
       {
+        test: /\.tsx?$/,
+        use: [
+          'ts-loader'
+        ]
+      },
+      {
         oneOf: [
           {
             test: /\.(png|jpg|gif|jpeg|svg)$/,
