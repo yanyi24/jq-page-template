@@ -73,6 +73,7 @@
 
 .font-italic         { font-style: italic !important; }
 .text-decoration-none { text-decoration: none !important; }
+.text-decoration-underline {text-decoration: underline !important;}
 .text-break {
   word-break: break-word !important; // Deprecated, but avoids issues with flex containers
   word-wrap: break-word !important; // Used instead of `overflow-wrap` for IE & Edge Legacy
@@ -95,6 +96,15 @@ a.disabled {
 .flex {
   display: flex;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column{
+  flex-direction: column;
+}
 .block {
   display: block;
+}
+.none{
+  display: none !important;
 }
